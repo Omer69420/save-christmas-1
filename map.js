@@ -22,3 +22,17 @@ console.log(newStringArr)
 console.log(stringArr)    
 
 
+console.log('\nTEST 3')
+const nummer = [32, 7, 9, 49, 56];
+const nyttNummer = nummer.map(x => x / 2);
+console.log(nummer)
+
+console.log(nyttNummer)
+
+console.log(Math.max(...nummer))
+
+console.log(Math.max(...nyttNummer))
+
+console.log(Math.min(...nummer))
+
+console.log(Math.min(...nyttNummer))
