@@ -14,3 +14,11 @@ const newNumberArr = numberArr.map(x => 5 + x)
 console.log(newNumberArr) 
 console.log(numberArr)    
 
+
+console.log('\nTEST 2')
+const stringArr = ['Hund', 'hest', 'Bil']
+const newStringArr = stringArr.map(str => str.toUpperCase())
+console.log(newStringArr) 
+console.log(stringArr)    
+
+
