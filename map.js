@@ -1,26 +1,16 @@
-
 function map(arr, func) {
-    // skapa en ny tom array av samma längd som arr
+    const arr1 = arr.lenght
 
-    // för varje element i arr
-    //      newArray[j] = func(arr[j])
+    for (i = 0; i < arr.lenght; i++) {
+        secarray[i] = func(arr[i])
 
-    // returnera den nya arrayen
+    }
+    return arr1
 }
 
-// Test 1
 console.log('\nTEST 1')
-const numberArray = [10, 50, 100]
-const newNumberArray = map(numberArray, x => x + 5)
-console.log(newNumberArray) // [15, 55, 105]
-console.log(numberArray)    // [10, 50, 100] 
+const numberArr = [10, 50, 100]
+const newNumberArr = numberArr.map(x => 5 + x)
+console.log(newNumberArr) 
+console.log(numberArr)    
 
-// Test 2
-console.log('\nTEST 2')
-const stringArray = ['boll', 'häst', 'flygplan']
-const newStringArray = map(stringArray, str => str.toUpperCase())
-console.log(newStringArray) // ['BOLL', 'HÄST', 'FLYGPLAN']
-console.log(stringArray)    // ['boll', 'häst', 'flygplan']
-
-// Test 3 - GÖR ETT EGET TEST HÄR
-console.log('\nTEST 3')
