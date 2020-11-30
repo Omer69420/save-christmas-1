@@ -1,12 +1,16 @@
+const alla = [1, 4, 8, 12, 16, 20];
 
-function max(arr) {
-
+function max() {
+    let arr = Math.max(...alla);
+    console.log(arr)
 }
 
-function min(arr) {
+max();
 
+function min() {
+    let arr = Math.min(...alla);
+    console.log(arr)
 }
 
-function mean(arr) {
-    // Ledtråd: Börja med att räkna ut summan av alla element
-}
+min();
+
